@@ -2,13 +2,6 @@
 
 ### An End-to-End Financial Analytics & Budget Performance Monitoring Project
 
-**Project Owner:** Arun Banoth  
-**Domain:** Data Analytics | Financial Planning & Analysis (FP&A)  
-**Tools:** Python · SQL Server · Power BI · DAX · Power Query  
-**Dataset:** Synthetic Financial Dataset  
-
----
-
 ## 1. Project Overview
 
 The **Finance Budget vs Actual Analytics Dashboard** is an end-to-end financial analytics project designed to evaluate organizational financial performance by comparing actual revenue and expenses against planned budgets.
