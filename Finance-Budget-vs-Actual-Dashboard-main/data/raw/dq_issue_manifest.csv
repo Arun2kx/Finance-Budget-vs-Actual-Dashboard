@@ -1,0 +1,6 @@
+issue_type,table_name,expected_detection,rows_affected
+Duplicate budget rows,fact_budget_dirty,"Group by month_start_date, department_id, category_id, region_id and find count > 1",12
+Zero budget amount,fact_budget_dirty,WHERE budget_amount <= 0,8
+Negative actual amount,fact_actuals_dirty,WHERE actual_amount < 0,15
+Missing department_id in actuals,fact_actuals_dirty,WHERE department_id IS NULL,10
+Actuals with no matching budget combination,fact_actuals_dirty,Monthly actual-budget full outer join where total_actual > 0 and total_budget = 0,20
